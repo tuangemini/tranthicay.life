@@ -14,7 +14,7 @@
     fabTitle: 'Tâm Sự Cùng Cô Cậy',
     fabSub: 'Hỏi về Sen Tâm, Giáo dục & Bình an',
     fabBadge: 'Hoan Hỷ',
-    avatarIcon: '🪷',
+    avatarIcon: '<img src="assets/img/avatar.jpg" alt="Trần Thị Cậy">',
     subHeader: 'Nhà Sáng Tạo Nội Dung • Sống Đẹp & Tỉnh Thức',
     footerNote: 'Trần Thị Cậy • Bình an, Tỉnh thức & Trọn vẹn từng khoảnh khắc',
     deepseekModel: 'deepseek-chat',
