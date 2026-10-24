@@ -1,0 +1,9 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Exclude original massive video files > 100MB to avoid GitHub push limits
+ANH WEBSITE TRẦN CẬY/CHIỀU QUÊ THANH BÌNH.mp4
+ANH WEBSITE TRẦN CẬY/DÁNG SEN TOẢ SÁNG .mp4
