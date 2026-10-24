@@ -150,4 +150,24 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // 7. Hero Photo Switcher
+  const heroMainImg = document.getElementById('heroMainImage');
+  const switchBtns = document.querySelectorAll('.photo-switch-btn');
+  switchBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      switchBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const newSrc = btn.getAttribute('data-src');
+      const newPos = btn.getAttribute('data-pos') || 'center';
+      if (heroMainImg) {
+        heroMainImg.style.opacity = '0';
+        setTimeout(() => {
+          heroMainImg.src = newSrc;
+          heroMainImg.style.objectPosition = newPos;
+          heroMainImg.style.opacity = '1';
+        }, 180);
+      }
+    });
+  });
 });
